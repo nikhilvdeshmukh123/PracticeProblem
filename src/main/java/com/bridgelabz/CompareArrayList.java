@@ -13,13 +13,13 @@ public class CompareArrayList {
         System.out.println("ArrayList1: " + list1);
 
         ArrayList<String> list2 = new ArrayList<String>();
-        list2.add("White");
+        list2.add("Black");
         list2.add("Orange");
         list2.add("Blue");
         list2.add("Black");
         System.out.println("ArrayList2: " + list2);
 
-        if (list1 == list2) {
+        if (list1.equals(list2)) {
             System.out.println("Both Arraylist are equal");
         } else {
             System.out.println("Both Arraylist are not equal");
